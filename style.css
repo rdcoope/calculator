@@ -1,0 +1,42 @@
+body {
+    height: 100%;
+    
+}
+* {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    align-items: center;
+}
+div {
+    border: 2px red dotted;
+    min-height: 50px;
+    min-width: 50px
+}
+#math {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    padding: 20px;
+}
+button {
+    width: 60px;
+    height: 60px;
+}
+#display {
+    margin: 10px;
+    background-color: aliceblue;
+}
+#calculator {
+    background-color: maroon;
+    width: 85%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+}
