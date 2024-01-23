@@ -1,5 +1,5 @@
 const numbers = document.querySelector('#numbers')
-console.log(numbers)
+//console.log(numbers)
 
 // create numbers buttons
 
@@ -20,8 +20,50 @@ for (let i = 1; i < 10; i++){
     numberButtons.textContent = i
     numberButtons.setAttribute('id', i)
     numberButtons.setAttribute('class', 'numbers')
-    console.log(numberButtons.textContent)
+    //console.log(numberButtons.textContent)
     numbers.append(numberButtons)
 }
 
+function add(x,y) {
+    a = Number(x);
+    b = Number(y);
 
+    let sum = 0 
+    sum = x + y
+    return sum;
+}
+function subtract(x,y) {
+    a = Number(x);
+    b = Number(y);
+
+    let diff = 0 
+    diff = x - y
+    return diff;
+}
+function multiply(x,y) {
+    a = Number(x);
+    b = Number(y);
+
+    let mult = 0 
+    mult = x * y
+    return mult;
+}
+function divide(x,y) {
+    a = Number(x);
+    b = Number(y);
+
+    let divide = 0 
+    divide = x / y
+    return divide;
+}
+/*
+function math(x,y) {
+    console.log(add(x,y));
+    console.log(subtract(x,y));
+    console.log(multiply(x,y));
+    console.log(divide(x,y));
+
+}
+
+//math(40,20)
+*/
