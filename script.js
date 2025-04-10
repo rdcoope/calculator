@@ -2,7 +2,7 @@ const numbers = document.querySelector('#numbers')
 //console.log(numbers)
 
 // create numbers buttons
-
+function numbersButtons() {
 const divZero = document.createElement('div')
 divZero.setAttribute('class', 'numbers zero')
 const zero = document.createElement('button');
@@ -22,6 +22,7 @@ for (let i = 1; i < 10; i++){
     numberButtons.setAttribute('class', 'numbers')
     //console.log(numberButtons.textContent)
     numbers.append(numberButtons)
+}
 }
 
 function add(x,y) {
@@ -67,3 +68,5 @@ function math(x,y) {
 
 //math(40,20)
 */
+
+numbersButtons()
